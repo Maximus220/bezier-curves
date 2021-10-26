@@ -37,3 +37,7 @@ function copyV(v){
 function d(v0, v1){
   return dist(v0.x,v0.y,v1.x,v1.y);
 }
+
+function det(v0,v1){
+  return v0.x*v1.y - v0.y*v1.x;
+}
